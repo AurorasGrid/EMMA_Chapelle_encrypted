@@ -1,6 +1,0 @@
-Chappele sur Moudon site checklist:
-
-- Interface from Rpi to Eaton converter (Modbus)
-- Interface from Rpi to Depsys server (prod, cons, IP to be added)
-- Interface from external partner to control battery
-✓ Rpi sends data to Grafana

@@ -1,8 +1,0 @@
-103 = 0007W
-102 = 000GF
-101 = 000GB
-100 = 000GI
-000GC is the entrance of M. Pache building
-104 = 000GK
-105 = 000CL
-106 = ? no measurement device here

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09fef2ea-df8b-4e49-93ba-cd704466cb1a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EMMA_Chapelle_encrypted.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_copyFilesFromEmma.bat" beforeDir="false" afterPath="$PROJECT_DIR$/1_copyFilesFromEmma.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ageing_data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ageing_data/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ageing_data/ageing_data_LFP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ageing_data/ageing_data_LFP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ageing_data/ageing_data_NMC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ageing_data/ageing_data_NMC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/class_EMS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/class_EMS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/class_battery.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/class_battery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/class_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/class_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/class_logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/class_logs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_1_Consumption/Al_Dhafra_Dubai_consumption_1min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_1_Consumption/Big_district_consumption_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_1_Consumption/District_consumption_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_1_Consumption/Empa_consumption_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_1_Consumption/Empa_consumption_30sec.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_1_Consumption/G0_industrial_consumption_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_1_Consumption/Household_consumption_5sec.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_1_Consumption/Neuchatel_household_consumption_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_1_Consumption/cons_Pache_15min_1yr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_1_Consumption/cons_Yverdon_15min_1year.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_1_Consumption/load_zimbabwe_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/All_year_sunny_pv_1min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/Big_district_pv_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/District_pv_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/Eaton_pv_1hr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/Empa_pv_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/Empa_pv_15min_8_9_feb_2020.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/Empa_pv_30sec.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/Neuchatel_household_pv_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/Neuchatel_household_pv_5sec.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/Yverdon_pv_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/prod_Pache_15min_1yr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/prod_Yverdon_15min_1year.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/pv_profile_1kW_15min_1yr_zimbabwe.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/reference_sunny_day_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_3_Tariffs/Retail_tariff_peak.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_4_PCR/5sec_pcr_power.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_4_PCR/PCR_freq_profile_2018_15min.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_4_PCR/PCR_weekly_price_kW_CH_2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_4_PCR/PCR_weekly_price_kW_CH_2018_test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_5_SCR/SCR_profile_frac_2018_DE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_5_SCR/SCR_weekly_price_kW_CH_2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_files/_5_SCR/SCR_weekly_price_kWh_CH_2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EMMA_Chapelle_Moudon_large_BES.py" beforeDir="false" afterPath="$PROJECT_DIR$/EMMA_Chapelle_Moudon_large_BES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EMMA_Chapelle_Moudon_small_BES.py" beforeDir="false" afterPath="$PROJECT_DIR$/EMMA_Chapelle_Moudon_small_BES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/Depsys_SPEC_External_API_Reel_Demo_Chappelle.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/Depsys_nodes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/Eaton Application interface definitions.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/Eaton Architecture (communication).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/Eaton Modbus interface proposal (V2).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/Map/Chapelle Node Names.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/Map/Plan_Chapelle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/Map/Schema.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/Map/image002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/Map/image003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/Map/image004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/activation_key.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/interfaces_checklist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/large_battery_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/large_battery_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/small_battery_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/small_battery_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/test_external_to_rpi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/test_external_to_rpi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/wifi_access.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_inputs_Chapelle_Moudon_large.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_inputs_Chapelle_Moudon_large.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_inputs_Chapelle_Moudon_small.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_inputs_Chapelle_Moudon_small.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dUxi12X2JlOVv579TkMTkNIbwr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.EMMA_Chapelle_Moudon_large_BES">
+    <configuration name="EMMA_Chapelle_Moudon_large_BES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EMMA_Chapelle_encrypted" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EMMA_Chapelle_Moudon_large_BES.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EMMA_Chapelle_Moudon_small_BES (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EMMA_Chapelle_encrypted" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EMMA_Chapelle_Moudon_small_BES.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EMMA_Chapelle_Moudon_small_BES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EMMA_Chapelle_encrypted" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dist" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dist/EMMA_Chapelle_Moudon_small_BES.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="user_inputs_Chapelle_Moudon_large" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EMMA_Chapelle_encrypted" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_inputs_Chapelle_Moudon_large.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.EMMA_Chapelle_Moudon_large_BES" />
+        <item itemvalue="Python.EMMA_Chapelle_Moudon_small_BES (1)" />
+        <item itemvalue="Python.EMMA_Chapelle_Moudon_small_BES" />
+        <item itemvalue="Python.user_inputs_Chapelle_Moudon_large" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09fef2ea-df8b-4e49-93ba-cd704466cb1a" name="Default Changelist" comment="" />
+      <created>1592493595764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592493595764</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1592496166167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592496166167" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1592496166166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592496166166" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1592496166166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592496166166" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1592496166167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592496166167" />
+  </component>
+</project>
