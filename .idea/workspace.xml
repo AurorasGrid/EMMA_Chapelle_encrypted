@@ -4,30 +4,9 @@
     <list default="true" id="09fef2ea-df8b-4e49-93ba-cd704466cb1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2_encryptFiles.bat" beforeDir="false" afterPath="$PROJECT_DIR$/2_encryptFiles.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ageing_data/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ageing_data/ageing_data_LFP.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ageing_data/ageing_data_NMC.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/class_EMS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/class_battery.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/class_interface.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/class_logs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_files/_2_Production/reference_sunny_day_1sec.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_online_mode/exit_loop_flag_Chapelle_Moudon_large.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_online_mode/exit_loop_flag_Chapelle_Moudon_small.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EMMA_Chapelle_Moudon_large_BES.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EMMA_Chapelle_Moudon_small_BES.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/large_battery_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/small_battery_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces/Chapelle_Moudon/test_external_to_rpi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytransform/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytransform/_pytransform.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytransform/license.lic" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytransform/pytransform.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_inputs_Chapelle_Moudon_large.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_inputs_Chapelle_Moudon_small.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytransform/license.lic" beforeDir="false" afterPath="$PROJECT_DIR$/pytransform/license.lic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_inputs_Chapelle_Moudon_large.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_inputs_Chapelle_Moudon_large.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_inputs_Chapelle_Moudon_small.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_inputs_Chapelle_Moudon_small.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,21 +157,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1592554809314">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1592557574733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592554809314" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1592554809314">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592557574733" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1592557574733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592554809314" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1592554809313">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592557574733" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1592557574733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592554809313" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1592554809314">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592557574733" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1592557574733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592554809314" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592557574733" />
   </component>
 </project>

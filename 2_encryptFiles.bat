@@ -14,9 +14,9 @@ rmdir "Classes" /s /q >nul 2>&1
 rmdir "Interfaces" /s /q >nul 2>&1
 rmdir "utils" /s /q >nul 2>&1
 del "EMMA_Chapelle_Moudon_small_BES.py" /q
-del "dist/user_inputs_Chapelle_Moudon_small.py" /q
+del "dist\user_inputs_Chapelle_Moudon_small.py" /q
 del "EMMA_Chapelle_Moudon_large_BES.py" /q
-del "dist/user_inputs_Chapelle_Moudon_large.py" /q
+del "dist\user_inputs_Chapelle_Moudon_large.py" /q
 
 xcopy /s /y /i dist
 rmdir "dist" /s /q >nul 2>&1
