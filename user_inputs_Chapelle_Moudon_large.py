@@ -20,6 +20,7 @@ def user_inputs_Chapelle_Moudon():
     input_parameters['EMS']['nb_possible_services'] = 4
     input_parameters['EMS']['services_priority'] = [1, 0, 0, 0]     # 0 for not activated services
     input_parameters['EMS']['self_cons'] = True                     # Enable peak shaving
+    input_parameters['EMS']['limit_overload'] = False
     input_parameters['EMS']['peak_shaving'] = False                 # Enable peak shaving
     input_parameters['EMS']['PCR'] = False                          # Enable the BES use for ancillary services
     input_parameters['EMS']['SCR'] = False
