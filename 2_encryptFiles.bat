@@ -6,8 +6,8 @@ ECHO Output from Pyarmor library
 ECHO ------
 ECHO.
 
-pyarmor obfuscate --recursive EMMA_Chapelle_Moudon_small_BES.py
-pyarmor obfuscate --exact EMMA_Chapelle_Moudon_large_BES.py
+pyarmor obfuscate --recursive --platform windows.x86_64 --platform linux.armv7 EMMA_Chapelle_Moudon_small_BES.py
+pyarmor obfuscate --exact --platform windows.x86_64 --platform linux.armv7 EMMA_Chapelle_Moudon_large_BES.py
 
 rmdir "Ageing_data" /s /q >nul 2>&1
 rmdir "Classes" /s /q >nul 2>&1
