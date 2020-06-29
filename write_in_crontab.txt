@@ -1,2 +1,3 @@
-@reboot REPO_DIR=/home/pi/Documents/GitHub/EMMA_Chapelle_large_encrypted && chmod +x ${REPO_DIR}/rpi_git_push_results.sh && ${REPO_DIR}/rpi_git_push_results.sh && cd ${REPO_DIR} && python3 EMMA_Chapelle_Moudon_large_BES.py
-0 * * * * REPO_DIR=/home/pi/Documents/GitHub/EMMA_Chapelle_large_encrypted && ${REPO_DIR}/rpi_git_push_results.sh
+@reboot REPO_DIR=/home/pi/Documents/GitHub/EMMA_Chapelle_large_encrypted && chmod +x ${REPO_DIR}/rpi_git_push_results.sh && ${REPO_DIR}/rpi_git_push_results.sh
+@reboot cd /home/pi/Documents/GitHub/EMMA_Chapelle_large_encrypted && python3 EMMA_Chapelle_Moudon_large_BES.py
+0 * * * * /home/pi/Documents/GitHub/EMMA_Chapelle_large_encrypted/rpi_git_push_results.sh
