@@ -1,0 +1,19 @@
+
+user_Auroras:
+  access_code: '$Aurora#'
+  authorized: True
+  timed_access: False
+    
+user_supsi:
+  access_code: '$supsi#7156'
+  authorized: True
+  timed_access: True
+  start_date: '29-06-2020'
+  end_date: '23-11-2020'
+  
+user_depsys:
+  access_code: '$depsys#3782'
+  authorized: False
+  timed_access: True
+  start_date: '30-11-2020'
+  end_date: '29-03-2020'
