@@ -70,15 +70,16 @@ def user_inputs_Chapelle_Moudon():
     # # # # # # # # # # # # # # # #
     # # Battery parameters
     input_parameters['battery'] = {}
-    input_parameters['battery']['chemistry'] = 'NMC'            # (LFP, NMC, LTO)
-    input_parameters['battery']['size'] = 300                   # Capacity [kWh]
-    input_parameters['battery']['converter_power_limit'] = 280    # [kW] Limit: battery power converter
-    input_parameters['battery']['price'] = 500                  # Price (CHF / kWh)
-    input_parameters['battery']['nominal_cycles'] = 4500        # Nominal cycle life (1C charge/discharge at 100% DoD, ambient T)
-    input_parameters['battery']['efficiency'] = 1               # Round-trip efficiency (0 - 1)
-    input_parameters['battery']['Temperature'] = 30             # Battery temperature (degree C)
-    input_parameters['battery']['SoC_min_default'] = 5          # SoC minimal (technological limit: 0-100%)
-    input_parameters['battery']['SoC_max_default'] = 95        # SoC maximum (technological limit: 0-100%)
+    input_parameters['battery']['chemistry'] = 'NMC'                        # (LFP, NMC, LTO)
+    input_parameters['battery']['size'] = 300                               # Capacity [kWh]
+    input_parameters['battery']['converter_power_limit_charge'] = 50        # [kW] Limit: battery power converter
+    input_parameters['battery']['converter_power_limit_discharge'] = 200    # [kW] Limit: battery power converter
+    input_parameters['battery']['price'] = 500                              # Price (CHF / kWh)
+    input_parameters['battery']['nominal_cycles'] = 4500                    # Nominal cycle life (1C charge/discharge at 100% DoD, ambient T)
+    input_parameters['battery']['efficiency'] = 1                           # Round-trip efficiency (0 - 1)
+    input_parameters['battery']['Temperature'] = 30                         # Battery temperature (degree C)
+    input_parameters['battery']['SoC_min_default'] = 5                      # SoC minimal (technological limit: 0-100%)
+    input_parameters['battery']['SoC_max_default'] = 95                     # SoC maximum (technological limit: 0-100%)
 
     # # # # # # # # # # # # # # # # # #
     # # Logs related parameters
