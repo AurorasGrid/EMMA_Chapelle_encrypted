@@ -19,34 +19,33 @@ def user_inputs_Chapelle_Moudon():
     # Battery services
     input_parameters['EMS']['nb_possible_services'] = 5
     input_parameters['EMS']['services_priority'] = [1, 0, 0, 0, 0]     # 0 for not activated services
-    input_parameters['EMS']['self_cons'] = True                     # Enable peak shaving
-    input_parameters['EMS']['limit_overload'] = False
+    input_parameters['EMS']['self_cons'] = False                     # Enable peak shaving
+    input_parameters['EMS']['limit_overload'] = True
     input_parameters['EMS']['peak_shaving'] = False                 # Enable peak shaving
     input_parameters['EMS']['PCR'] = False                          # Enable the BES use for ancillary services
     input_parameters['EMS']['SCR'] = False
 
     # Self-cons parameters
-    if input_parameters['EMS']['self_cons']:
-        input_parameters['EMS']['self_cons_strategy'] = 'Table'  # Table, Optimization, Naive (Set strategy for the ageing management)
+    input_parameters['EMS']['self_cons_strategy'] = 'Table'  # Table, Optimization, Naive (Set strategy for the ageing management)
 
-        # # Renewable power plant parameters
-        input_parameters['EMS']['peak_prod'] = 269  # [kW]
-        input_parameters['EMS']['prod_factor'] = 1
-        # # Consumption parameters
-        input_parameters['EMS']['cons_factor'] = 1
+    # # Renewable power plant parameters
+    input_parameters['EMS']['peak_prod'] = 269  # [kW]
+    input_parameters['EMS']['prod_factor'] = 1
+    # # Consumption parameters
+    input_parameters['EMS']['cons_factor'] = 1
 
-        # forecast parameters
-        input_parameters['EMS']['forecast_window_days'] = 7
-        input_parameters['EMS']['forecast_nb_day_slices'] = 8
+    # forecast parameters
+    input_parameters['EMS']['forecast_window_days'] = 7
+    input_parameters['EMS']['forecast_nb_day_slices'] = 8
 
-        # Assign the reference sunny day profile
-        try:
-            loaded_data = load_csv_1vector('Data_files/_2_Production/reference_sunny_day_1sec.csv')
-            downsampled_data = downsample(np.asarray(loaded_data), factor=input_parameters['EMS']['timestep'])
-            input_parameters['prod_reference_sunny_day'] = input_parameters['EMS']['peak_prod'] * downsampled_data
-        except:
-            input_parameters['prod_reference_sunny_day'] = input_parameters['EMS']['peak_prod'] * np.ones(int(24 * 60 * 60 / input_parameters['EMS']['timestep']))
-            print('Reference sunny day set to default')
+    # Assign the reference sunny day profile
+    try:
+        loaded_data = load_csv_1vector('Data_files/_2_Production/reference_sunny_day_1sec.csv')
+        downsampled_data = downsample(np.asarray(loaded_data), factor=input_parameters['EMS']['timestep'])
+        input_parameters['prod_reference_sunny_day'] = input_parameters['EMS']['peak_prod'] * downsampled_data
+    except:
+        input_parameters['prod_reference_sunny_day'] = input_parameters['EMS']['peak_prod'] * np.ones(int(24 * 60 * 60 / input_parameters['EMS']['timestep']))
+        print('Reference sunny day set to default')
 
     # PCR parameters
     if input_parameters['EMS']['PCR']:
