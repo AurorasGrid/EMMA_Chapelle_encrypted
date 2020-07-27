@@ -18,7 +18,7 @@ def user_inputs_Chapelle_Moudon():
 
     # Battery services
     input_parameters['EMS']['nb_possible_services'] = 5
-    input_parameters['EMS']['services_priority'] = [1, 0, 0, 0, 0]     # 0 for not activated services
+    input_parameters['EMS']['services_priority'] = [5, 4, 3, 1, 2]     # 0 for not activated services
     input_parameters['EMS']['self_cons'] = False                     # Enable peak shaving
     input_parameters['EMS']['limit_overload'] = True
     input_parameters['EMS']['peak_shaving'] = False                 # Enable peak shaving
