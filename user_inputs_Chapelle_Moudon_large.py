@@ -29,7 +29,7 @@ def user_inputs_Chapelle_Moudon():
     input_parameters['EMS']['self_cons_strategy'] = 'Table'  # Table, Optimization, Naive (Set strategy for the ageing management)
 
     # # Renewable power plant parameters
-    input_parameters['EMS']['peak_prod'] = 269  # [kW]
+    input_parameters['EMS']['peak_prod'] = 323.3  # [kW]
     input_parameters['EMS']['prod_factor'] = 1
     # # Consumption parameters
     input_parameters['EMS']['cons_factor'] = 1
