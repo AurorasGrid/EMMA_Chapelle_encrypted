@@ -77,7 +77,7 @@ def user_inputs_Chapelle_Moudon():
     input_parameters['battery']['nominal_cycles'] = 4500                    # Nominal cycle life (1C charge/discharge at 100% DoD, ambient T)
     input_parameters['battery']['efficiency'] = 1                           # Round-trip efficiency (0 - 1)
     input_parameters['battery']['Temperature'] = 30                         # Battery temperature (degree C)
-    input_parameters['battery']['SoC_min_default'] = 5                      # SoC minimal (technological limit: 0-100%)
+    input_parameters['battery']['SoC_min_default'] = 10                     # SoC minimal (technological limit: 0-100%)
     input_parameters['battery']['SoC_max_default'] = 92                     # SoC maximum (technological limit: 0-100%)
 
     # # # # # # # # # # # # # # # # # #
