@@ -20,7 +20,7 @@ def user_inputs_Chapelle_Moudon():
     input_parameters['EMS']['nb_possible_services'] = 5
     input_parameters['EMS']['services_priority'] = [5, 4, 3, 1, 2]     # 0 for not activated services
     input_parameters['EMS']['self_cons'] = False                     # Enable peak shaving
-    input_parameters['EMS']['limit_overload'] = True
+    input_parameters['EMS']['limit_feedin'] = True
     input_parameters['EMS']['peak_shaving'] = False                 # Enable peak shaving
     input_parameters['EMS']['PCR'] = False                          # Enable the BES use for ancillary services
     input_parameters['EMS']['SCR'] = False
@@ -46,6 +46,14 @@ def user_inputs_Chapelle_Moudon():
     except:
         input_parameters['prod_reference_sunny_day'] = input_parameters['EMS']['peak_prod'] * np.ones(int(24 * 60 * 60 / input_parameters['EMS']['timestep']))
         print('Reference sunny day set to default')
+
+    # Limit_feedin parameters
+    if input_parameters['EMS']['limit_feedin']:
+        input_parameters['EMS']['critical_feedin_c_rate'] = 0.6
+
+    # PCR parameters
+    if input_parameters['EMS']['PCR']:
+        input_parameters['EMS']['PCR_power_reserve_factor'] = 1
 
     # PCR parameters
     if input_parameters['EMS']['PCR']:
@@ -77,7 +85,7 @@ def user_inputs_Chapelle_Moudon():
     input_parameters['battery']['nominal_cycles'] = 4500                    # Nominal cycle life (1C charge/discharge at 100% DoD, ambient T)
     input_parameters['battery']['efficiency'] = 1                           # Round-trip efficiency (0 - 1)
     input_parameters['battery']['Temperature'] = 30                         # Battery temperature (degree C)
-    input_parameters['battery']['SoC_min_default'] = 10                     # SoC minimal (technological limit: 0-100%)
+    input_parameters['battery']['SoC_min_default'] = 10                      # SoC minimal (technological limit: 0-100%)
     input_parameters['battery']['SoC_max_default'] = 92                     # SoC maximum (technological limit: 0-100%)
 
     # # # # # # # # # # # # # # # # # #
