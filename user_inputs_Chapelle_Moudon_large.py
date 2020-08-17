@@ -13,6 +13,7 @@ def user_inputs_Chapelle_Moudon():
     # # EMS_controller parameters
     input_parameters['EMS'] = {}
     input_parameters['EMS']['site_name'] = 'Chapelle_Moudon_large'
+    input_parameters['EMS']['site_coordinates'] = [46.6690, 6.7346]  # Latitude, longitude, used to calculate reference pv
     input_parameters['EMS']['mode'] = 'online'
     input_parameters['EMS']['timestep'] = 30  # sec
 
@@ -38,18 +39,9 @@ def user_inputs_Chapelle_Moudon():
     input_parameters['EMS']['forecast_window_days'] = 7
     input_parameters['EMS']['forecast_nb_day_slices'] = 8
 
-    # Assign the reference sunny day profile
-    try:
-        loaded_data = load_csv_1vector('Data_files/_2_Production/reference_sunny_day_1sec.csv')
-        downsampled_data = downsample(np.asarray(loaded_data), factor=input_parameters['EMS']['timestep'])
-        input_parameters['prod_reference_sunny_day'] = input_parameters['EMS']['peak_prod'] * downsampled_data
-    except:
-        input_parameters['prod_reference_sunny_day'] = input_parameters['EMS']['peak_prod'] * np.ones(int(24 * 60 * 60 / input_parameters['EMS']['timestep']))
-        print('Reference sunny day set to default')
-
     # Limit_feedin parameters
     if input_parameters['EMS']['limit_feedin']:
-        input_parameters['EMS']['critical_feedin_c_rate'] = 0.6
+        input_parameters['EMS']['critical_feedin_c_rate'] = 0.6667
 
     # PCR parameters
     if input_parameters['EMS']['PCR']:
