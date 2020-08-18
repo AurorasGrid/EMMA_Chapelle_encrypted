@@ -41,7 +41,7 @@ def user_inputs_Chapelle_Moudon():
 
     # Limit_feedin parameters
     if input_parameters['EMS']['limit_feedin']:
-        input_parameters['EMS']['critical_feedin_c_rate'] = 0.6667
+        input_parameters['EMS']['critical_feedin_c_rate'] = 0.6
 
     # PCR parameters
     if input_parameters['EMS']['PCR']:
