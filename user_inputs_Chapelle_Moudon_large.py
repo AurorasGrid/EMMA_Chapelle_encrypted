@@ -38,7 +38,7 @@ def user_inputs_Chapelle_Moudon():
             'forecast_nb_day_slices': 8,  # [-]
 
             # Peak_shaving_feedin parameters
-            'critical_feedin_power': 200,  # [kW]
+            'critical_feedin_power': 180,  # [kW]
 
             # PCR parameters
             'PCR_power_reserve_factor': 1,  # [-] Fraction of power converter used for PCR
