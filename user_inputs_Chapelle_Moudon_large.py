@@ -1,4 +1,4 @@
-from utils.utils import *
+from utils import *
 
 # This code includes the inputs from the user, in order to run his desired simulation
 #
