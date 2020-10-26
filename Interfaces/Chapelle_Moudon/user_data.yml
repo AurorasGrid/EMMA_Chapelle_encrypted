@@ -13,7 +13,7 @@ user_supsi:
   
 user_depsys:
   access_code: '$depsys#3782'
-  authorized: False
+  authorized: True
   timed_access: True
   start_date: '30-11-2020'
-  end_date: '29-03-2020'
+  end_date: '29-03-2021'
