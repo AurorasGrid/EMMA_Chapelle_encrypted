@@ -24,6 +24,8 @@ def user_inputs_Chapelle_Moudon():
             'peak_shaving_feedin': True,  # Enable feedin limit service
             'PCR': False,  # Enable PCR
             'SCR': False,  # Enable SCR
+            'SCR_positive': False,  # Enable positive SCR
+            'SCR_negative': False,  # Enable negative SCR
 
             # Self-cons parameters
             'self_cons_strategy': 'Table',  # Table, Optimization, Naive (Set strategy for the ageing management)
@@ -44,7 +46,8 @@ def user_inputs_Chapelle_Moudon():
             'PCR_power_reserve_factor': 1,  # [-] Fraction of power converter used for PCR
             'PCR_max_delivery_time': 15,  # [min]
             # SCR parameters
-            'SCR_power_reserve_factor': 1,  # [-] Fraction of power converter used for SCR
+            'SCR_positive_power_reserve_factor': 1,  # [-] Fraction of power converter used for SCR
+            'SCR_negative_power_reserve_factor': 1,  # [-] Fraction of power converter used for SCR
             'SCR_max_delivery_time': 15,  # [min]
 
             # Ageing related parameters
