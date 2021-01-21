@@ -5,6 +5,7 @@ ECHO "Copying python files from Emma ..."
 cd..
 
 xcopy /s /y /i EMS\EMMA\EMMA_Chapelle_Moudon_large_BES.py EMMA_Chapelle_large_encrypted\
+xcopy /s /y /i EMS\EMMA\user_inputs_default.py EMMA_Chapelle_large_encrypted\
 xcopy /s /y /i EMS\EMMA\user_inputs_custom.py EMMA_Chapelle_large_encrypted\
 
 xcopy /s /y /i EMS\EMMA\Ageing_data EMMA_Chapelle_large_encrypted\Ageing_data
