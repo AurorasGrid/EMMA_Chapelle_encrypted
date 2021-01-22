@@ -10,7 +10,6 @@ xcopy /s /y /i EMS\EMMA\user_inputs_custom.py EMMA_Chapelle_large_encrypted\
 
 xcopy /s /y /i EMS\EMMA\Ageing_data EMMA_Chapelle_large_encrypted\Ageing_data
 xcopy /s /y /i EMS\EMMA\Classes EMMA_Chapelle_large_encrypted\Classes
-xcopy /s /y /i EMS\EMMA\Data_files\_2_Production\reference_sunny_day_1sec.csv EMMA_Chapelle_large_encrypted\Data_files\_2_Production\
 xcopy /s /y /i EMS\EMMA\Data_online_mode\EMS_logs_Chapelle_Moudon_large_30sec.mat EMMA_Chapelle_large_encrypted\Data_online_mode\
 
 xcopy /s /y /i EMS\EMMA\Interfaces\Chapelle_Moudon\large_battery_connection.py EMMA_Chapelle_large_encrypted\Interfaces\Chapelle_Moudon\
